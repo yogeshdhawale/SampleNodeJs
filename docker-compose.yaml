@@ -1,0 +1,16 @@
+
+version: '3'
+services:
+    firstApp:
+        image: node_test
+        build:
+            context: . 
+            dockerfile: ./Dockerfile
+        volumes:
+            - /e/program/Projects/2023/SampleNodeJs/src/:/usr/src/app/src/
+        environment:
+            PORT: 8080
+        ports:
+            - "3000:3000"
+            - "8080:8080"
+    
