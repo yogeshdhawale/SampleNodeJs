@@ -1,6 +1,7 @@
 
-
+course: https://www.youtube.com/watch?v=pKd0Rpw7O48
 
 docker build . -t node_test 
 docker-compose up 
+docker compose down  --remove-orphans
 
