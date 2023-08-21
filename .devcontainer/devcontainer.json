@@ -8,5 +8,7 @@
 			"package": "typescript",
 			"version": "latest"
 		}
-	}
+	},
+	"postCreateCommand": "npm i express nodemon mocha supervisor"
+
 }
